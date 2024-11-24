@@ -169,7 +169,7 @@ if user_input == 3:
     for l in my_assignments:
         if assignment_input == l.get_name():
             print(l.get_grades())
-            plt.hist(l.get_grades(), bins=[0, 25, 50, 75, 100])
+            plt.hist(l.get_grades(), bins=[10, 20, 30, 40, 50, 60, 70, 80, 90, 100])
             plt.show()
             valid = True
     if not valid:
