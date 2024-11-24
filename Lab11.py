@@ -1,10 +1,10 @@
 import matplotlib.pyplot as plt
 import os
 
-student_list = open("students.txt")
+student_list = open("data/students.txt")
 student_list = student_list.read()
 list_of_students = student_list.split("\n")
-assignment_file = open("assignments.txt")
+assignment_file = open("data/assignments.txt")
 assignment_file = assignment_file.read()
 assignment_list = assignment_file.split("\n")
 
@@ -172,6 +172,5 @@ if user_input == 3:
             plt.hist(l.get_grades(), bins=[10, 20, 30, 40, 50, 60, 70, 80, 90, 100])
             plt.show()
             valid = True
-
     if not valid:
         print("Assignment not found")
