@@ -153,8 +153,8 @@ if user_input == 2:
             for score in l.get_grades():
                 total += score
 
-            avge = total//30
-            print(f"Avg: {(avge)}%")
+            avge = total/30
+            print(f"Avg: {round(avge)}%")
             maxi = max(l.get_grades())
             print(f"Max: {round(maxi)}%")
             valid = True
