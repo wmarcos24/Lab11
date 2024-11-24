@@ -80,7 +80,7 @@ for l in range(len(assignment_list)):
     object_assignment = Assignment(asn_name, asn_id, asn_weight)
     my_assignments.append(object_assignment)
 
-directory_path = "submissions"
+directory_path = "data/submissions"
 list_of_submission = []
 # Iterate through the directory
 for filename in os.listdir(directory_path):
