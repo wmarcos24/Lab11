@@ -9,6 +9,7 @@ assignment_file = assignment_file.read()
 assignment_list = assignment_file.split("\n")
 
 
+
 class Student:
     def __init__(self, name, id):
         self.name = name
@@ -80,7 +81,7 @@ for l in range(len(assignment_list)):
     object_assignment = Assignment(asn_name, asn_id, asn_weight)
     my_assignments.append(object_assignment)
 
-directory_path = "data/submissions"
+directory_path = "submissions"
 list_of_submission = []
 # Iterate through the directory
 for filename in os.listdir(directory_path):
@@ -138,8 +139,8 @@ if user_input == 1:
         for k in liststoodents:
             if k.get_id() == id_of_student:
                 fgrade = k.get_rawscore()/10
-                fgrade = int(round(fgrade))
-                print(f"{fgrade}%")
+                fgrade = int(fgrade)
+                print(f"{round(fgrade)}%")
 
 if user_input == 2:
     valid = False
