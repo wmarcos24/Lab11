@@ -138,7 +138,7 @@ if user_input == 1:
         for k in liststoodents:
             if k.get_id() == id_of_student:
                 fgrade = k.get_rawscore()/10
-                fgrade = int(round(fgrade, 0))
+                fgrade = int(round(fgrade))
                 print(f"{fgrade}%")
 
 if user_input == 2:
@@ -153,8 +153,8 @@ if user_input == 2:
             for score in l.get_grades():
                 total += score
 
-            avge = total/30
-            print(f"Avg: {round(avge)}%")
+            avge = total//30
+            print(f"Avg: {(avge)}%")
             maxi = max(l.get_grades())
             print(f"Max: {round(maxi)}%")
             valid = True
