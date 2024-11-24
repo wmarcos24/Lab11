@@ -37,6 +37,7 @@
   "keyToString": {
     "Python.Lab11.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/crust/PycharmProjects/8/Lab11",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -70,6 +71,7 @@
       <updated>1732418895530</updated>
       <workItem from="1732418896655" duration="25000" />
       <workItem from="1732418959711" duration="2184000" />
+      <workItem from="1732421331810" duration="179000" />
     </task>
     <task id="LOCAL-00001" summary="hi">
       <option name="closed" value="true" />
@@ -111,7 +113,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732419782778</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="submissions">
+      <option name="closed" value="true" />
+      <created>1732421413589</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732421413589</updated>
+    </task>
+    <task id="LOCAL-00007" summary="submissions">
+      <option name="closed" value="true" />
+      <created>1732421430294</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1732421430294</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,7 +137,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hi" />
-    <option name="LAST_COMMIT_MESSAGE" value="hi" />
+    <MESSAGE value="submissions" />
+    <option name="LAST_COMMIT_MESSAGE" value="submissions" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Lab11$Lab11.coverage" NAME="Lab11 Coverage Results" MODIFIED="1732419853101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/data" />
