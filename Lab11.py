@@ -1,10 +1,10 @@
 import matplotlib.pyplot as plt
 import os
 
-student_list = open("students.txt", 'r+')
+student_list = open("students.txt")
 student_list = student_list.read()
 list_of_students = student_list.split("\n")
-assignment_file = open("assignments.txt", 'r+')
+assignment_file = open("assignments.txt")
 assignment_file = assignment_file.read()
 assignment_list = assignment_file.split("\n")
 
