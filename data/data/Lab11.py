@@ -172,5 +172,6 @@ if user_input == 3:
             plt.hist(l.get_grades(), bins=[10, 20, 30, 40, 50, 60, 70, 80, 90, 100])
             plt.show()
             valid = True
+
     if not valid:
         print("Assignment not found")
